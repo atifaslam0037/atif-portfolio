@@ -8,16 +8,16 @@ import VantaBackground from './components/VantaBackground';
 
 function App() {
   return (
-    <div>
+    <>
       
       <Navbar />
       <Home />
       <About />
-       <VantaBackground />
+      <VantaBackground />
       <Skills />
       <Work />
       <Contact />
-    </div>
+    </>
   );
 }
 

@@ -1,38 +1,67 @@
-import Dashboard from '../assets/projects/Dashboard.jpg'
-import Fantasy from '../assets/projects/Arena.jpg'
-import NGO from '../assets/projects/NGO.jpg'
-import Sawtify from '../assets/projects/Sawtify.jpg'
+import BioStarks from '../assets/projects/biostarks.png'
+import Survey from '../assets/projects/adeebSurvery.png'
+import VehicleReport from '../assets/projects/vehiclereport.me_.png'    
+import BeeWell from '../assets/projects/beewellapp.com_.png' 
+import YogaWithEmilia from '../assets/projects/yogawithemilia.com_.png'
+import Mamus from '../assets/projects/mamus.co.uk_.png'
+import LearnQuraan from '../assets/projects/www.learnquraan.co.uk_.png'
+import GCCMarketing from '../assets/projects/www.gcc-marketing.com_.png'
 
-export const data=[
-    {
-        id:1,
-        name:"Sawtify",
-        image:Sawtify,
-        github:"https://github.com/zanib-sheikh/sawtifyy./tree/main",
-        live:"https://saawtify.vercel.app/",
-    },
-    {
-        id:2,
-        name:"Fantasy Arena",
-        image:Fantasy,
-        github:"https://github.com/zanib-sheikh/fantasyareenaleague/tree/main",
-        live:"https://fantasyareenaleague.vercel.app/",
-    },
-    {
-        id:3,
-        name:"Dashboard",
-        image:Dashboard,
-        github:"https://github.com/zanib-sheikh/d2v6/tree/main",
-        live:"https://d2v6-zanib-zubairs-projects.vercel.app/",
-    },
-    {
-        id:4,
-        name:"Website (only web view)",
-        image:NGO,
-        github:"https://github.com/zanib-sheikh/d2v6/tree/main",
-        live:"https://page2-theta.vercel.app/",
-    },
-     
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "BioStarks Results Portal",
+    image: BioStarks, // add screenshot import at top
+    github: "",
+    live: "https://results.biostarks.com/welcome",
+  },
+  {
+    id: 2,
+    name: "Survey Project",
+    image: Survey, // add screenshot import at top
+    github: "https://github.com/atifdev/survey-project", // optional, update if available
+    live: "https://survey-project-five.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "Vehicle Report",
+    image: VehicleReport, // add screenshot import at top
+    github: "",
+    live: "https://vehiclereport.me/",
+  },
+  {
+    id: 4,
+    name: "BeeWell App",
+    image: BeeWell, // add screenshot import at top
+    github: "",
+    live: "https://beewellapp.com/",
+  },
+  {
+    id: 5,
+    name: "Yoga With Emilia",
+    image: YogaWithEmilia, // add screenshot import at top
+    github: "",
+    live: "https://yogawithemilia.com/",
+  },
+  {
+    id: 6,
+    name: "Mamus UK",
+    image: Mamus, // add screenshot import at top
+    github: "",
+    live: "https://mamus.co.uk/",
+  },
+  {
+    id: 7,
+    name: "Learn Quraan UK",
+    image: LearnQuraan, // add screenshot import at top
+    github: "",
+    live: "https://www.learnquraan.co.uk/",
+  },
+  {
+    id: 8,
+    name: "GCC Marketing",
+    image: GCCMarketing, // add screenshot import at top
+    github: "",
+    live: "https://www.gcc-marketing.com/",
+  },
+];

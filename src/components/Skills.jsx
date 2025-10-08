@@ -16,15 +16,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Skills = () => {
   return (
-    <div name='skills' className='w-full min-h-screen bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full min-h-screen bg-gradient-to-b from-[#0b1220] to-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-4 py-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1100px] mx-auto px-6 sm:px-8 py-12 flex flex-col justify-center w-full'>
         <div>
-          <p data-aos="slide-left" className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
-          <p className='py-4'>These are the technologies I've worked with:</p>
+          <p data-aos="slide-left" className='text-4xl font-bold inline border-b-4 border-cyan-600 text-white'>Skills</p>
+          <p className='py-4 text-slate-300'>These are the technologies I've worked with:</p>
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center pt-8'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-8'>
           {[
             { src: HTML, label: 'HTML' },
             { src: CSS, label: 'CSS' },
@@ -41,10 +41,10 @@ const Skills = () => {
           ].map((tech, index) => (
             <div
               key={index}
-              className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg py-4 bg-[#0f1a2f]'
+              className='rounded-xl border border-white/10 bg-white/5 backdrop-blur-md shadow-md hover:shadow-lg hover:scale-[1.02] duration-300 py-6 text-center'
             >
-              <img className='w-20 mx-auto' src={tech.src} alt={`${tech.label} icon`} />
-              <p className='mt-4 text-sm sm:text-base font-medium'>{tech.label}</p>
+              <img className='w-16 sm:w-20 mx-auto' src={tech.src} alt={`${tech.label} icon`} />
+              <p className='mt-4 text-sm sm:text-base font-medium text-white'>{tech.label}</p>
             </div>
           ))}
         </div>

@@ -46,9 +46,9 @@ const GalaxyBackground = () => {
     geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
 
     const material = new THREE.PointsMaterial({
-      size: 0.006,
-      color: 0xff3cac,
-      opacity: 0.6, // lower opacity = faded
+      size: 0.008,
+      color: 0x06b7e8f9,
+      opacity: 0.7, // lower opacity = faded
       transparent: true,
       depthWrite: false,
     });

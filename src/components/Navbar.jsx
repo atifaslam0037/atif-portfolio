@@ -28,8 +28,8 @@ const Navbar = () => {
       smooth={true}
       duration={500}
       spy={true}
-      activeClass='text-pink-600 font-semibold'
-      className='hover:text-pink-400 duration-200'
+      activeClass='text-cyan-600 font-semibold'
+      className='hover:text-cyan-400 duration-200'
     >
       Home
     </Link>
@@ -40,8 +40,8 @@ const Navbar = () => {
       smooth={true}
       duration={500}
       spy={true}
-      activeClass='text-pink-600 font-semibold'
-      className='hover:text-pink-400 duration-200'
+      activeClass='text-cyan-600 font-semibold'
+      className='hover:text-cyan-400 duration-200'
     >
       About
     </Link>
@@ -52,8 +52,8 @@ const Navbar = () => {
       smooth={true}
       duration={500}
       spy={true}
-      activeClass='text-pink-600 font-semibold'
-      className='hover:text-pink-400 duration-200'
+      activeClass='text-cyan-600 font-semibold'
+      className='hover:text-cyan-400 duration-200'
     >
       Skills
     </Link>
@@ -64,8 +64,8 @@ const Navbar = () => {
       smooth={true}
       duration={500}
       spy={true}
-      activeClass='text-pink-600 font-semibold'
-      className='hover:text-pink-400 duration-200'
+      activeClass='text-cyan-600 font-semibold'
+      className='hover:text-cyan-400 duration-200'
     >
       Work
     </Link>
@@ -76,8 +76,8 @@ const Navbar = () => {
       smooth={true}
       duration={500}
       spy={true}
-      activeClass='text-pink-600 font-semibold'
-      className='hover:text-pink-400 duration-200'
+      activeClass='text-cyan-600 font-semibold'
+      className='hover:text-cyan-400 duration-200'
     >
       Contact
     </Link>
@@ -89,7 +89,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://www.linkedin.com/in/zanibzubair/'
+        href='https://www.linkedin.com/in/atif-front-end-developer/'
         target='_blank'
         rel='noreferrer'
       >
@@ -101,7 +101,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://github.com/zanib-sheikh'
+        href='https://github.com/atifaslam0037'
         target='_blank'
         rel='noreferrer'
       >
@@ -112,7 +112,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
   <a
     className='flex justify-between items-center w-full text-gray-300'
-    href='https://mail.google.com/mail/?view=cm&to=zanib4902@gmail.com&su=Portfolio%20Inquiry'
+    href='https://mail.google.com/mail/?view=cm&to=atifaslam0037@gmail.com&su='
     target='_blank'
     rel='noreferrer'
   >
@@ -125,7 +125,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://pdflink.to/e10bfc69/'
+        href='https://drive.google.com/file/d/1kcavg6cICgccP1occpHudvE_qckTe33D/view?usp=sharing'
         target='_blank'
         rel='noreferrer'
       >
@@ -145,7 +145,7 @@ const Navbar = () => {
     to='contact'
     smooth={true}
     duration={500}
-    className='text-white bg-pink-600 px-4 py-2 rounded-md text-sm ml-2 hover:bg-pink-700 transition'
+    className='text-white bg-cyan-600 px-4 py-2 rounded-md text-sm ml-2 hover:bg-cyan-700 transition'
   >
     Contact Me
   </Link>
@@ -195,7 +195,7 @@ const Navbar = () => {
             href='https://github.com/zanib-sheikh'
             target='_blank'
             rel='noreferrer'
-            className='text-white hover:text-pink-600'
+            className='text-white hover:text-cyan-600'
           >
             <FaGithub size={30} />
           </a>
@@ -203,7 +203,7 @@ const Navbar = () => {
             href='https://www.linkedin.com/in/zanibzubair/'
             target='_blank'
             rel='noreferrer'
-            className='text-white hover:text-pink-600'
+            className='text-white hover:text-cyan-600'
           >
             <FaLinkedin size={30} />
           </a>
@@ -211,7 +211,7 @@ const Navbar = () => {
             href='https://mail.google.com/mail/?view=cm&to=zanib4902@gmail.com&su=Portfolio%20Inquiry'
             target='_blank'
             rel='noreferrer'
-            className='text-white hover:text-pink-600'
+            className='text-white hover:text-cyan-600'
           >
             <HiOutlineMail size={30} />
           </a>
@@ -219,7 +219,7 @@ const Navbar = () => {
             href='https://pdflink.to/e10bfc69/'
             target='_blank'
             rel='noreferrer'
-            className='text-white hover:text-pink-600'
+            className='text-white hover:text-cyan-600'
           >
             <BsFillPersonLinesFill size={30} />
           </a>
